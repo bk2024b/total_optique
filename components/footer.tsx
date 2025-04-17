@@ -13,19 +13,19 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-3 mt-0.5 text-blue-400" />
-                <span>+229 00 00 00 00</span>
+                <span>+229 01 59 53 54 04</span>
               </li>
               <li className="flex items-start">
                 <WhatsappIcon className="h-5 w-5 mr-3 mt-0.5 text-green-400" />
-                <span>+229 00 00 00 00</span>
+                <span>+229 01 59 53 54 04</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-3 mt-0.5 text-blue-400" />
-                <span>contact@totaloptique.bj</span>
+                <span>totaloptique2000@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 mt-0.5 text-blue-400" />
-                <span>Avenue Steinmetz, Cotonou, Bénin</span>
+                <span>Calavi ARCONVILLE, Abomey-Clavi, Bénin</span>
               </li>
             </ul>
           </div>
@@ -38,14 +38,14 @@ export default function Footer() {
                 <Clock className="h-5 w-5 mr-3 mt-0.5 text-blue-400" />
                 <div>
                   <p className="font-medium">Lundi - Vendredi</p>
-                  <p className="text-slate-300">08h00 - 18h00</p>
+                  <p className="text-slate-300">09h00 - 18h00</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <Clock className="h-5 w-5 mr-3 mt-0.5 text-blue-400" />
                 <div>
                   <p className="font-medium">Samedi</p>
-                  <p className="text-slate-300">09h00 - 16h00</p>
+                  <p className="text-slate-300">09h00 - 17h00</p>
                 </div>
               </li>
               <li className="flex items-start">

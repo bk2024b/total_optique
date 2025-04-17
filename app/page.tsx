@@ -10,7 +10,7 @@ export default function Home() {
         <div className="container px-4 py-20 mx-auto flex flex-col lg:flex-row items-center gap-12">
           <div className="flex flex-col gap-6 lg:w-1/2">
             <h1 className="text-4xl lg:text-5xl font-bold text-slate-900">
-              Total Optique : Votre vision, notre expertise à Cotonou.
+              Total Optique : Votre vision, notre expertise.
             </h1>
             <p className="text-lg text-slate-600">
               Nous proposons des solutions optiques personnalisées pour améliorer votre vision et votre confort au
@@ -24,7 +24,7 @@ export default function Home() {
           </div>
           <div className="lg:w-1/2">
             <Image
-              src="/placeholder.svg?height=600&width=800"
+              src="/hero-image.jpeg"
               alt="Lunettes élégantes"
               width={800}
               height={600}
@@ -135,7 +135,7 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-slate-900 mb-6">À propos de nous</h2>
             <p className="text-lg text-slate-600 mb-8">
-              Total Optique, votre opticien de confiance à Cotonou depuis 2020. Notre équipe de professionnels qualifiés
+              Total Optique, votre opticien de confiance. Notre équipe de professionnels qualifiés
               s'engage à vous offrir des solutions optiques personnalisées et un service de qualité.
             </p>
             <Button asChild variant="outline">

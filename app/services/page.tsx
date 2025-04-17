@@ -24,7 +24,7 @@ export default function Services() {
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="md:w-1/3">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/test-de-vue.jpeg"
                   alt="Examen de vue"
                   width={600}
                   height={400}
@@ -40,7 +40,7 @@ export default function Services() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
                   <div className="bg-blue-50 text-blue-700 px-4 py-2 rounded-md font-semibold">
-                    Prix indicatif : 20 000 CFA
+                    Gratuit
                   </div>
                   <Button asChild className="flex items-center gap-2 bg-green-600 hover:bg-green-700">
                     <Link href="https://wa.me/+22900000000?text=Je%20souhaite%20prendre%20rendez-vous%20pour%20un%20examen%20de%20vue">
@@ -56,7 +56,7 @@ export default function Services() {
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="md:w-1/3 md:order-2">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/montures.jpeg"
                   alt="Lunettes sur mesure"
                   width={600}
                   height={400}
@@ -88,7 +88,7 @@ export default function Services() {
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="md:w-1/3">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/conseils.jpeg"
                   alt="Lentilles de contact"
                   width={600}
                   height={400}
@@ -96,16 +96,13 @@ export default function Services() {
                 />
               </div>
               <div className="md:w-2/3">
-                <h2 className="text-2xl font-bold text-slate-900 mb-4">Lentilles de contact</h2>
+                <h2 className="text-2xl font-bold text-slate-900 mb-4">Conseils personnalisés</h2>
                 <p className="text-slate-600 mb-4">
                   Nous proposons une gamme complète de lentilles de contact adaptées à vos besoins spécifiques. Nos
                   spécialistes vous guident dans le choix des lentilles les plus confortables et vous forment à leur
                   utilisation et entretien.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-                  <div className="bg-blue-50 text-blue-700 px-4 py-2 rounded-md font-semibold">
-                    Prix variables selon les types de lentilles
-                  </div>
                   <Button asChild className="flex items-center gap-2 bg-green-600 hover:bg-green-700">
                     <Link href="https://wa.me/+22900000000?text=Je%20souhaite%20prendre%20rendez-vous%20pour%20des%20lentilles%20de%20contact">
                       <WhatsappIcon className="h-5 w-5" />
