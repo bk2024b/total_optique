@@ -43,7 +43,7 @@ export default function Services() {
                     Gratuit
                   </div>
                   <Button asChild className="flex items-center gap-2 bg-green-600 hover:bg-green-700">
-                    <Link href="https://wa.me/+22900000000?text=Je%20souhaite%20prendre%20rendez-vous%20pour%20un%20examen%20de%20vue">
+                    <Link href="https://wa.me/+2290159535404?text=Je%20souhaite%20prendre%20rendez-vous%20pour%20un%20examen%20de%20vue">
                       <WhatsappIcon className="h-5 w-5" />
                       Prendre rendez-vous
                     </Link>
@@ -75,7 +75,7 @@ export default function Services() {
                     Prix variables selon les modèles
                   </div>
                   <Button asChild className="flex items-center gap-2 bg-green-600 hover:bg-green-700">
-                    <Link href="https://wa.me/+22900000000?text=Je%20souhaite%20prendre%20rendez-vous%20pour%20des%20lunettes%20sur%20mesure">
+                    <Link href="https://wa.me/+2290159535404?text=Je%20souhaite%20prendre%20rendez-vous%20pour%20des%20lunettes%20sur%20mesure">
                       <WhatsappIcon className="h-5 w-5" />
                       Prendre rendez-vous
                     </Link>
@@ -104,7 +104,7 @@ export default function Services() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
                   <Button asChild className="flex items-center gap-2 bg-green-600 hover:bg-green-700">
-                    <Link href="https://wa.me/+22900000000?text=Je%20souhaite%20prendre%20rendez-vous%20pour%20des%20lentilles%20de%20contact">
+                    <Link href="https://wa.me/+2290159535404?text=Je%20souhaite%20prendre%20rendez-vous%20pour%20des%20lentilles%20de%20contact">
                       <WhatsappIcon className="h-5 w-5" />
                       Prendre rendez-vous
                     </Link>

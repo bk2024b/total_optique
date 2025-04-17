@@ -38,7 +38,7 @@ export default function Contact() {
     )
 
     // Open WhatsApp with the pre-filled message
-    window.open(`https://wa.me/+22900000000?text=${message}`, "_blank")
+    window.open(`https://wa.me/+2290159535404?text=${message}`, "_blank")
   }
 
   return (
@@ -95,7 +95,7 @@ export default function Contact() {
                     <SelectContent>
                       <SelectItem value="examen">Examen de vue</SelectItem>
                       <SelectItem value="lunettes">Lunettes sur mesure</SelectItem>
-                      <SelectItem value="lentilles">Lentilles de contact</SelectItem>
+                      <SelectItem value="lentilles">SAV</SelectItem>
                       <SelectItem value="autre">Autre</SelectItem>
                     </SelectContent>
                   </Select>
@@ -130,7 +130,7 @@ export default function Contact() {
                     <Phone className="h-5 w-5 text-blue-600 mt-1" />
                     <div>
                       <p className="font-medium">Téléphone</p>
-                      <p className="text-slate-600">+229 00 00 00 00</p>
+                      <p className="text-slate-600">+229 01 59 53 54 04</p>
                     </div>
                   </div>
 
@@ -138,7 +138,7 @@ export default function Contact() {
                     <WhatsappIcon className="h-5 w-5 text-green-600 mt-1" />
                     <div>
                       <p className="font-medium">WhatsApp</p>
-                      <p className="text-slate-600">+229 00 00 00 00</p>
+                      <p className="text-slate-600">+229 01 59 53 54 04</p>
                     </div>
                   </div>
 
@@ -146,7 +146,7 @@ export default function Contact() {
                     <Mail className="h-5 w-5 text-blue-600 mt-1" />
                     <div>
                       <p className="font-medium">Email</p>
-                      <p className="text-slate-600">contact@totaloptique.bj</p>
+                      <p className="text-slate-600"> totaloptique2000@gmail.com</p>
                     </div>
                   </div>
 
@@ -154,7 +154,7 @@ export default function Contact() {
                     <MapPin className="h-5 w-5 text-blue-600 mt-1" />
                     <div>
                       <p className="font-medium">Adresse</p>
-                      <p className="text-slate-600">Avenue Steinmetz, Cotonou, Bénin</p>
+                      <p className="text-slate-600">Calavi ARCONVILLE, Abomey-Calavi, Bénin</p>
                     </div>
                   </div>
 
