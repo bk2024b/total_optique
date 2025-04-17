@@ -175,7 +175,15 @@ export default function Contact() {
                 <div className="w-full h-full bg-slate-200 flex items-center justify-center">
                   <p className="text-slate-500">Carte Google Maps</p>
                   {/* Intégrer Google Maps ici avec l'adresse réelle */}
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4110.303077650441!2d2.3442780967581958!3d6.450242637634736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1024a984fd347ec9%3A0x8087698ad73198f!2sTOTAL%20OPTIQUE%20CALAVI!5e0!3m2!1sfr!2sbj!4v1744854771241!5m2!1sfr!2sbj" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4110.303077650441!2d2.3442780967581958!3d6.450242637634736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1024a984fd347ec9%3A0x8087698ad73198f!2sTOTAL%20OPTIQUE%20CALAVI!5e0!3m2!1sfr!2sbj!4v1744854771241!5m2!1sfr!2sbj"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade" >
+                  </iframe>
                 </div>
               </div>
             </div>
